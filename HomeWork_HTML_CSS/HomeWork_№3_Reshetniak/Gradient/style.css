@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "Cinzel";
+    src: url(fonts/Cinzel-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1920px;
+    height: 100vh;
+}
+
+body {
+    font-family: "Cinzel";
+    color: #fff;
+}
+
+.a {
+    height: 100vh;
+    width: 274.3px;
+    background-image: linear-gradient( to bottom, rgb(237, 33, 58), rgb(147, 41, 30));
+    float: left;
+}
+
+.r {
+    height: 100vh;
+    width: 274.3px;
+    background-image: linear-gradient( to bottom, rgb(101, 78, 163), rgb(234, 175, 200));
+    float: left;
+}
+
+.s {
+    height: 100vh;
+    width: 274.3px;
+    background-image: linear-gradient( to bottom, rgb(101, 153, 153), rgb(244, 121, 31));
+    float: left;
+}
+
+.e {
+    height: 100vh;
+    width: 274.3px;
+    background-image: linear-gradient( to bottom, rgb(31, 64, 55), rgb(153, 242, 200));
+    float: left;
+}
+
+.n {
+    height: 100vh;
+    width: 274.3px;
+    background-image: linear-gradient( to bottom, rgb(239, 59, 54), rgb(255, 255, 255));
+    float: left;
+}
+
+.l {
+    height: 100vh;
+    width: 274.2px;
+    background-image: linear-gradient(to bottom, rgb(235, 87, 87), rgb(0, 0, 0));
+    float: left;
+}
+
+span {
+    display: block;
+    text-align: center;
+    font-size: 300px;
+    margin-top: 100%;
+}

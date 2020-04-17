@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.5/css/unicons.css">
+        <link rel="stylesheet" href="account.css">
+        <title>Account</title>
+    </head>
+
+    <body>
+
+        <!-- Nav Bar Menu -->
+        <nav class="nav_panel">
+            <a class="box hover active" href="main.html">Main</a>
+            <a class="box hover" href="team.html">Team</a>
+            <a class="box hover" href="lessons.html">Lessons</a>
+        </nav>
+
+        <!-- Wrapper for Account -->
+        <div class="wrapper">
+
+            <!-- Flex container -->
+            <div class="flex-container">
+
+                <!-- Box one  -->
+                <div class="item box_one">
+                    <div class="img_acc">
+                        A
+                    </div>
+                    <div class="name_box">
+                        <div class="name_acc">
+                            <h1>Andy Cube</h1>
+                        </div>
+                        <div class="acc_mail">
+                            <p>andycube@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Box two -->
+                <div class="item box_two">
+                    <div class="svg_padlock lock">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path
+                                    d="M12,13a1.49,1.49,0,0,0-1,2.61V17a1,1,0,0,0,2,0V15.61A1.49,1.49,0,0,0,12,13Zm5-4V7A5,5,0,0,0,7,7V9a3,3,0,0,0-3,3v7a3,3,0,0,0,3,3H17a3,3,0,0,0,3-3V12A3,3,0,0,0,17,9ZM9,7a3,3,0,0,1,6,0V9H9Zm9,12a1,1,0,0,1-1,1H7a1,1,0,0,1-1-1V12a1,1,0,0,1,1-1H17a1,1,0,0,1,1,1Z" />
+                            </svg>
+                        </div>
+                        <div class="change">
+                            <h1>Change Password</h1>
+                            <p>Plese choose a password wich is longer than 6 characters</p>
+                        </div>
+                    </div>
+
+                    <!-- Forma for Account Password -->
+                    <div>
+                        <form>
+                            <label for="old_pss">
+                                <h2>Old Password</h2>
+                            </label>
+                            <input type="password" id="pwd" name="pwd" placeholder="Enter password">
+                            <br>
+                            <label for="new_pss">
+                                <h2>New Password</h2>
+                            </label>
+                            <input type="password" id="pwd" name="pwd" placeholder="Enter password">
+                            <label for="con_pss">
+                                <h2>Confirm Password</h2>
+                            </label>
+                            <input type="password" id="pwd" name="pwd" placeholder="Enter password">
+                            <br>
+                            <input type="button" id="button" name="button" value="Save">
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Box three -->
+                <div class="item box_three">
+                    <div class="company_box">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 24 24">
+                                <path
+                                    d="M21,10a.99974.99974,0,0,0,1-1V6a.9989.9989,0,0,0-.68359-.94824l-9-3a1.002,1.002,0,0,0-.63282,0l-9,3A.9989.9989,0,0,0,2,6V9a.99974.99974,0,0,0,1,1H4v7.18427A2.99507,2.99507,0,0,0,2,20v2a.99974.99974,0,0,0,1,1H21a.99974.99974,0,0,0,1-1V20a2.99507,2.99507,0,0,0-2-2.81573V10ZM20,21H4V20a1.001,1.001,0,0,1,1-1H19a1.001,1.001,0,0,1,1,1ZM6,17V10H8v7Zm4,0V10h4v7Zm6,0V10h2v7ZM4,8V6.7207l8-2.667,8,2.667V8Z" />
+                            </svg>
+
+                        </div>
+                        <div class="comp_opt">
+                            <h1>Company</h1>
+                            <p>Optional, but we would appreciate if you fill out these form</p>
+                        </div>
+                    </div>
+
+                    <form class="comp_pss">
+                        <label for="comp_name">
+                            <h2>Company name</h2>
+                        </label>
+                        <input type="text" id="comp_adress" name="pwd" placeholder="Logos IT-academy">
+                        <label for="comp_add">
+                            <h2>Company address</h2>
+                        </label>
+                        <input type="text" id="company" name="company address" placeholder="61 I.Franka, Lviv">
+                    </form>
+
+
+
+                    <form class="copm_add">
+
+                        <div class="left_form">
+                            <div>
+                                <label for="country">
+                                    <h2>Country</h2>
+                                </label>
+                                <input type="text" name="count" id="count" placeholder="Enter country">
+                            </div>
+
+                            <div>
+                                <label for="state">
+                                    <h2>State</h2>
+                                </label>
+                                <input type="text" name="state" id="state" placeholder="Enter state">
+                            </div>
+                        </div>
+
+                        <div class="right_form">
+                            <div>
+                                <label for="city">
+                                    <h2>City</h2>
+                                </label>
+                                <input type="text" name="city" id="city" placeholder="Enter city">
+                            </div>
+
+                            <div>
+                                <label for="postal_code">
+                                    <h2>Postal Code</h2>
+                                </label>
+                                <input type="text" name="post" id="post" placeholder="Enter code">
+                            </div>
+                        </div>
+                        <input type="button" id="button_right" name="button" value="Save">
+
+                    </form>
+
+                </div>
+                <!-- END -->
+            </div>
+            <!-- END -->
+        </div>
+        <!-- END -->
+
+        <!-- 
+              
+                              -->
+
+        <!-- Aside Part -->
+        <div class="aside">
+            <a class="box" href="main.html">
+                <div class="dropdown">
+                    <i class="uil uil-folder ">
+                        <div class="dropdown-content">
+                            <span>Project</span>
+                        </div>
+                    </i>
+                </div>
+            </a>
+
+            <a class="box" href="account.html">
+                <div class="dropdown">
+                    <i class="uil uil-monitor active1 ">
+                        <div class="dropdown-content">
+                            <span>Account</span>
+                        </div>
+                    </i>
+                </div>
+            </a>
+
+            <a class="box" href="#">
+                <div class="dropdown">
+                    <i class="uil uil-cloud-share icons">
+                        <div class="dropdown-content">
+                            <span>Cloud</span>
+                        </div>
+                    </i>
+                </div>
+            </a>
+
+            <a class="box" href="#">
+                <div class="dropdown">
+                    <i class="uil uil-users-alt icons">
+                        <div class="dropdown-content">
+                            <span>Group</span>
+                        </div>
+                    </i>
+                </div>
+            </a>
+
+            <a class="box" href="#">
+                <div class="dropdown">
+                    <i class="uil uil-cog">
+                        <div class="dropdown-content">
+                            <span>Settings</span>
+                        </div>
+                    </i>
+                </div>
+            </a>
+
+        </div>
+
+    </body>
+
+</html>

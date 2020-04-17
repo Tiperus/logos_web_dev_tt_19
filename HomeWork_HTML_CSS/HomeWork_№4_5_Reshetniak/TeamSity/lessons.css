@@ -1,0 +1,113 @@
+.nav_panel {
+  margin: 20px;
+  position: absolute;
+  background-color: #ffffff;
+  text-align: center;
+  top: 10px;
+  left: 0;
+  right: 0;
+}
+
+.box {
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+}
+
+a:hover {
+  color: #87cefa;
+}
+
+.active {
+  color: #87cefa;
+}
+
+.containers2 {
+  margin: auto;
+  margin-top: 100px;
+  width: 98%;
+  height: 700px;
+  border-radius: 20px;
+  background-color: rgba(119, 136, 153, 0.4);
+  top: 90px;
+  left: 20px;
+  font-family: "bahij";
+}
+
+table {
+  position: relative;
+  height: 500px;
+  font-size: 25px;
+  width: 800px;
+  text-align: center;
+  border-radius: 20px;
+  border-collapse: collapse;
+  font-family: "bahij";
+  margin: auto;
+  top: 50px;
+}
+
+.lesson td:first-child {
+  border-top-left-radius: 20px;
+}
+
+.lesson td:last-child {
+  border-top-right-radius: 20px;
+}
+
+.lesson td:first-child {
+  border-bottom-left-radius: 20px;
+}
+
+.lesson td:last-child {
+  border-bottom-right-radius: 20px;
+}
+
+.lesson:hover {
+  background-color: white;
+  width: 800px;
+}
+
+tr img:hover {
+  background-color: #87cefa;
+  border-radius: 10px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+  font-size: 17px;
+  visibility: hidden;
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: scale(1.5);
+}
+
+input[type="checkbox"]:after {
+  content: " ";
+  background-color: #fff;
+  display: inline-block;
+  color: #0b0d0e;
+  width: 14px;
+  height: 19px;
+  visibility: visible;
+  border: 1px solid rgb(20, 19, 19);
+  padding: 0 3px;
+  margin: 2px 0;
+  border-radius: 8px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.08), 0 0 2px 0 rgba(0, 0, 0, 0.16);
+}
+
+input[type="checkbox"]:checked:after {
+  background-color: #87cefa;
+  content: "\2714";
+  display: unset;
+  font-weight: bold;
+}

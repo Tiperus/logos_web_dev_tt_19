@@ -1,0 +1,43 @@
+body {
+  background-color: lightslategray;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.container {
+  width: 500px;
+  height: 150px;
+  margin: 0 auto;
+}
+.box-1 {
+  text-align: center;
+  border: 3px dashed red;
+  padding: 40px;
+  margin: 100px;
+  height: 30px;
+  background-color: aqua;
+}
+.box-2 {
+  text-align: center;
+  border: 3px dotted red;
+  padding: 40px;
+  margin: 100px;
+  height: 30px;
+  background-color: yellow;
+}
+.box-3 {
+  text-align: center;
+  border: 30px solid blue;
+  padding: 40px;
+  margin: 100px;
+  height: 30px;
+  background-color: aqua;
+}
+.box-4 {
+  text-align: center;
+  border-left: 10px solid red;
+  padding: 40px;
+  margin: 100px;
+  height: 30px;
+  background-color: aqua;
+}

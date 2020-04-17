@@ -1,0 +1,253 @@
+@font-face {
+    font-family: "chronica.ttf";
+    src: url(fonts/ChronicaPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: "bahij";
+    src: url(fonts/bahij-sultannahia.ttf);
+}
+
+
+/*Global Setting */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.faded {
+    color: grey;
+}
+
+
+/* Nav Bar Menu */
+
+.nav_panel {
+    margin: 20px;
+    position: absolute;
+    background-color: #ffffff;
+    text-align: center;
+    top: 10px;
+    left: 0;
+    right: 0;
+}
+
+.box {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.hover:hover {
+    color: #87cefa;
+}
+
+.active {
+    color: #87cefa;
+}
+
+.active1 {
+    color: #ffffff;
+    background-color: #346beb;
+    border-radius: 6px;
+}
+
+p {
+    font-family: "chronica";
+}
+
+
+/* Flex-container */
+
+.containers {
+    position: relative;
+    width: 98vw;
+    height: 85vh;
+    border-radius: 10px;
+    background-color: rgba(119, 136, 153, 0.2);
+    top: 90px;
+    margin: auto;
+    /*  */
+    /*  */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.aside {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff;
+    height: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 80px;
+    margin: auto 20px;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 36px;
+    top: 250px;
+    left: 40px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #346beb;
+    color: #ffffff;
+    z-index: 1;
+    top: 0;
+    left: 30px;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    letter-spacing: 4px;
+    margin: o auto;
+    border: 1px solid #000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+i:hover {
+    color: #ffffff;
+    border-radius: 6px;
+    background-color: #346beb;
+    cursor: pointer;
+}
+
+
+/* Header-Top */
+
+.header_top {
+    height: 20vh;
+    width: 80vw;
+    /*  */
+    /*  */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
+
+.top-1 {
+    width: 35vw;
+    height: 10vh;
+    background: #ffffff;
+    padding-left: 20px;
+    padding-top: 10px;
+    left: 100px;
+    border-radius: 10px;
+}
+
+.top-2 {
+    width: 35vw;
+    height: 10vh;
+    background: #ffffff;
+    padding-top: 10px;
+    padding-left: 10px;
+    right: 100px;
+    border-radius: 10px;
+}
+
+.top-1 p,
+.top-2 p {
+    line-height: 25px;
+}
+
+.faded {
+    font-family: "chronica";
+    font-size: 20px;
+}
+
+.second {
+    font-family: "bahij";
+    font-size: 35px;
+}
+
+
+/* Article-left */
+
+.article-left {
+    width: 50vw;
+    height: 50vh;
+    margin-left: -600px;
+    /*  */
+    /*  */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: space-between;
+}
+
+.article-left1 {
+    width: 49vw;
+    height: 12vh;
+    background-color: white;
+    padding: 20px 5px 20px 5px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.article-left2 {
+    text-align: left;
+    width: 49vw;
+    height: 25vh;
+    background-color: white;
+    padding: 20px 5px 20px 5px;
+    border-radius: 10px;
+    box-sizing: initial;
+    /**/
+    /**/
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+
+/* Main */
+
+.main {
+    position: relative;
+    width: 30vw;
+    height: 60vh;
+    background-color: #ffffff;
+    margin-left: 60vw;
+    padding: 20px;
+    top: -500px;
+    text-align: justify;
+    border-radius: 10px;
+    /*  */
+    /*  */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.data_item {
+    position: relative;
+    align-self: flex-end;
+    margin-left: -100px;
+}
